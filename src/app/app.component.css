@@ -1,0 +1,27 @@
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+/*columns*/
+.column {
+    width: 50%;
+    height: 100%;
+    border: 1px solid green;
+}
+/*left-column*/
+/*right-column*/
+
+/*======*/
+
+/*halfs*/
+.half {
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+}
+/*top-half*/
+
+/*bottom-half*/
