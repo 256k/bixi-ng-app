@@ -4,10 +4,49 @@
     height: 100%;
     width: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    
+    
 
+}
+.wrapper * {
+    /*border: 1px solid red;*/
 }
 
 h1 {
     margin: 0;
     padding: 0;
+}
+
+.signature {
+    position: relative;
+    bottom: 0;
+    text-align: right;
+}
+
+.signature a {
+    color: white;
+}
+
+.station-title {
+    font-size: 200%;
+    margin: 100px 0 0 0;
+}
+.station-info {
+    font-size: 200%;
+    flex-grow: 5;
+
+}
+
+@media screen and (max-width: 800px){
+    .station-title {
+        font-size: 300%;
+        margin: 0;
+    }
+    .station-info {
+    text-align: center;
+}
 }
