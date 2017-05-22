@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-right: 3vw solid green;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    text-align: center;
+}
